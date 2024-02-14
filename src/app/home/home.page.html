@@ -1,0 +1,37 @@
+<ion-header [translucent]="true" >
+  <ion-toolbar>
+    <ion-title>
+      Blank
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Blank</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+<div class="buttons">
+  <hr>
+ <ion-label class="txt">LED 1</ion-label> 
+<ion-button shape="round" value="0" id="LED1" (click)="toogleState()" class="btn">
+  <ion-icon size="large"  name="power-outline"></ion-icon>
+</ion-button>
+
+<ion-label  class="txt">LED 2</ion-label> 
+<ion-button shape="round" value="0" id="LED2"  (click)="toogleState2()" class="btn">
+  <ion-icon size="large"  name="power-outline"></ion-icon>
+</ion-button>
+<ion-label  class="txt">LED 3</ion-label> 
+<ion-button shape="round" value="0" id="LED3"  (click)="toogleState3()"  class="btn">
+  <ion-icon size="large"  name="power-outline"></ion-icon>
+</ion-button>
+<ion-label class="txt">GENERAL</ion-label> 
+<ion-button shape="round" value="0" id="LED4"  (click)="toogleState4()"  class="btn">
+  <ion-icon size="large"  name="power-outline"></ion-icon>
+</ion-button>
+</div>
+
+</ion-content>

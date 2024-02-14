@@ -1,0 +1,23 @@
+ion-content{
+  --ion-background-color:#202220;
+}
+
+.btn{
+  border-radius: 2rem;
+
+  width: 4rem;
+  height: 4rem;
+
+}
+
+.buttons{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.txt{
+  color: white;
+}
